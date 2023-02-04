@@ -5,8 +5,9 @@ SAMPLE() {
 
   b=20
   #100 comments
+  echo First Argument = $1
 }
 ## main program
 a=10
-SAMPLE
+SAMPLE xyz
 echo b - $b
