@@ -1,6 +1,7 @@
 SAMPLE() {
   echo I am a function
   echo a - $a
+  a=200
   b=20
   #100 comments
 }
